@@ -8,5 +8,5 @@ public class IfElse {
 		} else
 			System.out.println("The Number is not Valid");
 	}
-
+	
 }
