@@ -1,6 +1,6 @@
 package com.aaludra.basic.programs;
 
-public class Array {
+public class ArrayExample {
 
 	public static void main(String[] args) {
 		int[] a = new int[5];

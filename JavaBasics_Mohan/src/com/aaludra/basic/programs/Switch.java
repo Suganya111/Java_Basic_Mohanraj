@@ -24,10 +24,10 @@ public class Switch {
 		case 6:
 			System.out.println("June");
 			break;
-			default:
-				System.out.println("Last Six Months");
-				break;
-			
+		default:
+			System.out.println("Last Six Months");
+			break;
+		
 		}
 	}
 	

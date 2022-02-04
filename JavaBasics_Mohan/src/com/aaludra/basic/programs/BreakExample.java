@@ -1,6 +1,6 @@
 package com.aaludra.basic.programs;
 
-public class Break {
+public class BreakExample {
 
 	public static void main(String[] args) {
 		for (int i = 0; i <= 10; i++) {
