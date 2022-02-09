@@ -1,20 +1,20 @@
 package com.aaludra.collections;
 
-import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedHashSet;
 
-public class ArrayListExample {
+public class LinkedSetExample {
 
 	public static void main(String[] args) {
-
-		ArrayList<String> place = new ArrayList<String>();
-		place.add("Chenai");
-		place.add("Erode");
+		LinkedHashSet<String> place = new LinkedHashSet<String>();
 		place.add("Chennai");
-		place.add("Erode");
+		place.add("Coimbatore");
+		place.add("Coimbatore");
+		place.add("Salem");
 		Iterator<String> itr = place.iterator();
 		while (itr.hasNext()) {
 			System.out.println(itr.next());
 		}
 	}
+
 }

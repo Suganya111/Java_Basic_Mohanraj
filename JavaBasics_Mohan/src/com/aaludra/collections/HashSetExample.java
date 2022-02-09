@@ -1,17 +1,16 @@
 package com.aaludra.collections;
 
-import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Iterator;
 
-public class ArrayListExample {
+public class HashSetExample {
 
 	public static void main(String[] args) {
-
-		ArrayList<String> place = new ArrayList<String>();
-		place.add("Chenai");
-		place.add("Erode");
+		HashSet<String> place = new HashSet<String>();
 		place.add("Chennai");
-		place.add("Erode");
+		place.add("Coimbatore");
+		place.add("Coimbatore");
+		place.add("Salem");
 		Iterator<String> itr = place.iterator();
 		while (itr.hasNext()) {
 			System.out.println(itr.next());

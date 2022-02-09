@@ -1,20 +1,20 @@
 package com.aaludra.collections;
 
-import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedList;
 
-public class ArrayListExample {
+public class LinkedListExample {
 
 	public static void main(String[] args) {
-
-		ArrayList<String> place = new ArrayList<String>();
-		place.add("Chenai");
-		place.add("Erode");
+		LinkedList<String> place = new LinkedList<>();
+		place.add("Coimbatore");
 		place.add("Chennai");
+		place.add("Coimbatore");
 		place.add("Erode");
 		Iterator<String> itr = place.iterator();
 		while (itr.hasNext()) {
 			System.out.println(itr.next());
+
 		}
 	}
 }

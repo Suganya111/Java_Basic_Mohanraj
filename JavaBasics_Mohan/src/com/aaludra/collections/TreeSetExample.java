@@ -1,20 +1,20 @@
 package com.aaludra.collections;
 
 import java.util.Iterator;
-import java.util.LinkedList;
+import java.util.TreeSet;
 
-public class ListInterfaceExample {
+public class TreeSetExample {
 
 	public static void main(String[] args) {
-		LinkedList<String> place = new LinkedList<>();
+		TreeSet<String> place = new TreeSet<String>();
+		place.add("Salem");
+		place.add("Coimbatore");
 		place.add("Coimbatore");
 		place.add("Chennai");
-		place.add("Coimbatore");
-		place.add("Erode");
 		Iterator<String> itr = place.iterator();
 		while (itr.hasNext()) {
 			System.out.println(itr.next());
-
 		}
 	}
+
 }
