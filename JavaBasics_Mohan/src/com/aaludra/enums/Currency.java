@@ -1,7 +1,7 @@
 package com.aaludra.enums;
 
 public enum Currency {
-	INR("india", "RU"), USD("USA", "$"), EURO("Europe", "EU");
+	INR("India", "RU"), USD("USA", "$"), EURO("Europe", "EU");
 
 	private String countryName;
 	private String symbol;
@@ -14,7 +14,7 @@ public enum Currency {
 	public String getCountryName(String countryName) {
 		return symbol;
 	}
-	public String getSymbol() {
+	public String getSymbol(String symbol) {
 		return countryName;
 	}
 }

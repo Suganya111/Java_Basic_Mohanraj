@@ -9,7 +9,7 @@ public class CurrencyTask {
 		Currency us = Currency.USD;
 		System.out.println("Symbol : " + us.getCountryName("USA"));
 		Currency eu = Currency.EURO;
-		System.out.println("Symbol : " + eu.name());
+		System.out.println("Symbol : " + eu.getCountryName("Europe"));
 
 	}
 }

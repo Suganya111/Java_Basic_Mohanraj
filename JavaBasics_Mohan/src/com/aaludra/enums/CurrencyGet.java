@@ -12,15 +12,13 @@ public class CurrencyGet {
 			this.symbol = symbol;
 		}
 
-		public static Currency getCountryName(String symbol) {
+		public static Currency getCurrencyName(String name) {
 			for (Currency value : Currency.values()) {
-				if (value.country.equals(symbol)) {
-
+				if (value.name().equals(name)) { // value.country
 					return value;
 				}
 			}
 			return null;
 		}
 	}
-
 }
