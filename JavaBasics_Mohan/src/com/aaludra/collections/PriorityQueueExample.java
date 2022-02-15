@@ -15,7 +15,7 @@ public class PriorityQueueExample {
 		System.out.println("head:" + queue.poll());
 		System.out.println("head:" + queue.size());
 		System.out.println("iterating the queue elements:");
-		Iterator itr = queue.iterator();
+		Iterator<String> itr = queue.iterator();
 		while (itr.hasNext()) {
 			System.out.println(itr.next());
 		}

@@ -14,14 +14,14 @@ public class EnumGradeTask {
 			this.g2 = g2;
 		}
 
-		public static Grade getGrade(int a) {
+		public static boolean validateSalary(String s,int a) {
 			for (Grade value : Grade.values()) {
-				// if (value.name().equals(s)) {
+			 if (value.name().equals(s)) {
 				if ((value.g1 < a) && (value.g2 > a)) {
-					return value;
+					return true;
 				}
-			}
-			return null;
+			}}
+			return false;
 
 		}
 	}
