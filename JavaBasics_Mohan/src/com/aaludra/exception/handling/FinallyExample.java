@@ -1,8 +1,8 @@
-package com.exception.handling;
+package com.aaludra.exception.handling;
 
 public class FinallyExample {
 	public static void main(String args[]) {
-		try {
+		try{
 			System.out.println("inside try block");
 			System.out.println(34 / 0);
 		} catch (ArithmeticException e) {

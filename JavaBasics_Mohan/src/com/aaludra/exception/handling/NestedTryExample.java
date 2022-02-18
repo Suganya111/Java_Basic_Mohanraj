@@ -1,4 +1,4 @@
-package com.exception.handling;
+package com.aaludra.exception.handling;
 
 public class NestedTryExample {
 	public static void main(String args[]) {
@@ -6,7 +6,7 @@ public class NestedTryExample {
 			int[] a = { 1, 2, 3, 4, 5 };
 			System.out.println(a[4]);
 			try {
-			System.out.println(a[2] / 0);
+				System.out.println(a[2] / 0);
 			} catch (ArithmeticException e2) {
 				System.out.println("division by zero is not possible");
 			}

@@ -1,4 +1,4 @@
-package com.exception.handling;
+package com.aaludra.exception.handling;
 
 public class MultipleCatchEx {
 	public static void main(String[] args) {

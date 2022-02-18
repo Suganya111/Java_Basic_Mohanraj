@@ -1,4 +1,5 @@
-package com.exception.handling;
+
+package com.aaludra.exception.handling;
 
 public class ThrowExample {
 	public static void validate(int age) {  
@@ -6,7 +7,7 @@ public class ThrowExample {
             throw new ArithmeticException("Person is not eligible to vote");    
         }  
         else {  
-            System.out.println("person is eligible to vote");  
+        	System.out.println("person is eligible to vote");  
         }  
     }  
     public static void main(String[] args){  
