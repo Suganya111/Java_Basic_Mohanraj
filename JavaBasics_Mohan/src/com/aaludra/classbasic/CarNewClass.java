@@ -1,7 +1,7 @@
 package com.aaludra.classbasic;
 
 public class CarNewClass {
-	void run() { // Run Method
+	public void run() { // Run Method
 		System.out.println("car is Best");
 	}
 
@@ -10,6 +10,6 @@ public class CarNewClass {
 		CarNewClass bmw = new CarNewClass();
 
 		audi.run(); // Behavior
-		bmw.run();
+	    bmw.run();
 	}
 }

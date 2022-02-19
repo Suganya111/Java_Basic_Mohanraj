@@ -14,6 +14,7 @@ public class TestRun {
 		list.add(new Test("T4", 45));
 		list.add(new Test("T5", 55));
 		list.add(new Test("T6", 45));
+		list.add(new Test("T7", 50));
 
 		int sum = 0;
 		int avg = 0;

@@ -11,6 +11,7 @@ enum GradeEnumTask {
 		this.grades = grades;
 		this.g1 = g1;
 		this.g2 = g2;
+		
 	}
 
 	public String getGrades() {
