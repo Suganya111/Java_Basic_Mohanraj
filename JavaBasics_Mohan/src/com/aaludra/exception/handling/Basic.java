@@ -6,13 +6,13 @@ import java.util.Scanner;
 public class Basic {
 	public static void main(String[] args) {
 
-		int a = 10;
+		double a = 10;
 		System.out.println("Enter Number");
 		try {
 			try {
 				Scanner sc = new Scanner(System.in);
-				int b = sc.nextInt();
-				int c = a / b;
+				double b = sc.nextInt();
+				double c = a / b;
 				System.out.println(c);
 			} catch (ArithmeticException e) {
 				System.out.println("Don't Enter zero");
