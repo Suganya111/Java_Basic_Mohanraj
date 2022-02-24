@@ -3,6 +3,7 @@ package com.aaludra.collections;
 public class StudentGradeTask {
 	private String subject;
 	private double mark;
+	private String grade;
 
 	public StudentGradeTask(String subject, double mark) {
 		this.subject = subject;
