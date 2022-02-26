@@ -1,8 +1,8 @@
 package com.aaludra.polymorphism;
 
-import com.basic.program.interfaces.ChessGame;
-import com.basic.program.interfaces.InterfaceGaming;
-import com.basic.program.interfaces.JumpGame;
+import com.aaludra.interfaces.ChessGame;
+import com.aaludra.interfaces.InterfaceGaming;
+import com.aaludra.interfaces.JumpGame;
 
 public class PolymorphismExample {
 
